@@ -37,6 +37,3 @@ de Dados
   Manipulação
   Percurso
   Árvores binárias de busca
-
-# Teste
-
