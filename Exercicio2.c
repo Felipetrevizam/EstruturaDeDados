@@ -31,8 +31,8 @@ typedef struct{
 
 int main(){
    int i;
-    Compromisso Compromissos[1];
-    for (i=0; i<1; i++){
+    Compromisso Compromissos[1]0;
+    for (i=0; i<10; i++){
         scanf("%s",Compromissos[i].texto);
         scanf("%d",&Compromissos[i].Date.dia);
         scanf("%d",&Compromissos[i].Date.mes);
@@ -42,7 +42,7 @@ int main(){
         scanf("%d",&Compromissos[i].Hora.segundo);}
         printf("FIM");
 
-    for (i=0; i<1; i++){
+    for (i=0; i<10; i++){
         printf("%s",Compromissos[i].texto);
         printf("%d",Compromissos[i].Date.dia);
         printf("%d",Compromissos[i].Date.mes);
@@ -51,5 +51,6 @@ int main(){
         printf("%d",Compromissos[i].Hora.minuto);
         printf("%d",Compromissos[i].Hora.segundo);
         printf("FIM");}    
+        
     return 0;
 }
